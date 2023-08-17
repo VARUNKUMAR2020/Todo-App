@@ -95,7 +95,6 @@ const Todo = () => {
         {todos.map((todo, index) => (
           <TodoList
             key={index}
-            index={index}
             todo={todo}
             onDelete={handleDelete}
             onEdit={handleEdit}
